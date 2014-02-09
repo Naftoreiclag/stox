@@ -4,6 +4,9 @@ Licensed into [Public Domain](http://unlicense.org/)
 
 Convert std::string into a bunch of different arithmetic types. (e.g. int, long, short...)
 
+    #include <string>
+    #include "stox.hpp"
+    
     std::string str;
   
     stox::stos(str); // converts to short
