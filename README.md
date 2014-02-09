@@ -18,6 +18,7 @@ Convert std::string into a bunch of different arithmetic types. (e.g. int, long,
 Each function has the prefix "sto" which stands for **S**tring **To**.
 The suffix is composed of the initials of the type being converted to.
 
-"i" -> **I**nteger
-"ui" -> **U**nsigned **I**nteger
-"ull" -> **U**nsigned **L**ong **L**ong
+Examples:
+* "stoi" -> **S**tring **To** **I**nteger
+* "stoui" -> **S**tring **To** **U**nsigned **I**nteger
+* "stoull" -> **S**tring **To** **U**nsigned **L**ong **L**ong
