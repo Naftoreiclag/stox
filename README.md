@@ -12,7 +12,7 @@ Convert std::string into a bunch of different arithmetic types. (e.g. int, long,
     stox::stoui(str); // converts to unsigned int
     stox::stol(str); // converts to long
     stox::stoul(str); // converts to unsigned long
-    stox::stol(str); // converts to long long
+    stox::stoll(str); // converts to long long
     stox::stoull(str); // converts to unsigned long long
 
 Each function has the prefix "sto" which stands for **S**tring **To**.
